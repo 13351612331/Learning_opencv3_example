@@ -9,3 +9,6 @@ target_link_libraries(2_1_load_image ${OpenCV_LIBRARIES})
 
 add_executable(2_2_load_image 2_2_load_image.cpp)
 target_link_libraries(2_2_load_image ${OpenCV_LIBRARIES})
+
+add_executable(2_3_load_video 2_3_load_video.cpp)
+target_link_libraries(2_3_load_video ${OpenCV_LIBRARIES})
